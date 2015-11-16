@@ -1,0 +1,282 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+}
+
+h1,h2,h3,h4,h5,p,a,li {
+  font-weight:100;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+.mast-header {
+  margin-top:10px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+.mast-header a {
+  font-size: 20px;
+  font-weight: 100;
+  color: #A51C30;
+  width:100px;
+  margin-top: 22px;
+  margin-bottom:20px;
+  text-align:center;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #8996A0;
+  color:#fff;
+  border-radius: 2px;
+}
+
+.mast-header h1 {
+  font-size: 45px;
+}
+.mast-header h2 {
+  font-size: 30px;
+  margin:0px;
+}
+
+.gd-main-section {
+  background-color: #A51C30;
+  color: #fff;
+  height: 325px;
+  position: relative;
+}
+
+.gd-main-section-copy{
+  font-weight: 100;
+  margin-top: 53px;
+  color: #fff;
+  position: relative;
+}
+
+.gd-main-section-copy h2{
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.experience-header {
+  margin-top:100px;
+  margin-bottom:50px;
+}
+
+.experience-header h1 {
+  font-size: 60px;
+}
+
+.experience-link{
+  font-size:30px;
+  color: #505050;
+}
+
+.btn {
+  border-radius: 2px;
+  font-weight: 100;
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #F7AC67;
+  border-color: #F7AC67;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #F8A04D;
+  border-color: #F8A04D;
+}
+
+.center { float: none; margin-left: auto; margin-right: auto; }
+
+
+a {
+  color: #000;
+  font-weight: 100;
+}
+
+a:hover {
+  color: #BEBEBE;
+}
+
+.lead {
+  color: #1e2128;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: 200;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 60px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-image {
+  box-shadow: 0px 0px 15px 2px #ccc;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+/***********************************************************************************************/
+/* Button */
+/***********************************************************************************************/
+.go-top {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+  padding: 1em;
+  display: none;
+  border-radius: 3px;
+}
+
+.go-top:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  .mast-header {
+    margin-top:10px;
+    margin-bottom:30px;
+    text-align: left;
+  }
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  .featurette-image {
+    box-shadow: 0px 0px 15px 2px #ccc;
+    margin-top:50px;
+    margin-bottom:25px;
+  }
+
+  .gd-main-section-copy{
+    font-weight: 100;
+    margin-top: 55px;
+    position: relative;
+  }
+
+  .gd-main-section-copy h2{
+    font-weight: 100;
+    font-size: 37px;
+  }
+
+  .mast-header h1 {
+    font-size: 60px;
+  }
+
+  .experience-header {
+    margin-top:200px;
+    margin-bottom:50px;
+  }
+
+  .experience-header h1 {
+    font-size: 80px;
+  }
+
+  .mast-header a {
+    font-size: 24px;
+    font-weight: 100;
+    width:150px;
+    margin-top: 27px;
+    margin-bottom:20px;
+    text-align:center;
+  }
+
+}
+
+@media (max-width: @screen-phone-max) {
+  .mast-header {
+    height:auto;
+  }
+
+  .header-bar {
+    margin-top:5px;
+  }
+
+  .mast-header a {
+    font-size: 20px;
+  }
+
+  .mast-header h1 {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mast-header h1 {
+    font-size: 50px;
+  }
+
+  .featurette-heading {
+    margin-top: 50px;
+  }
+}
