@@ -198,6 +198,10 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
   }
+  
+    .gd-main-section {
+  height: 308px;
+}
 
   /* Navbar positioning foo */
   .navbar-wrapper {
