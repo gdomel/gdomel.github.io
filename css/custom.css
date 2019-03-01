@@ -257,6 +257,10 @@ a:hover {
   .mast-header {
     height:auto;
   }
+  
+  .gd-main-section {
+  height: 308px;
+}
 
   .header-bar {
     margin-top:5px;
