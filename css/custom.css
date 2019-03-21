@@ -257,7 +257,7 @@ a:hover {
 
 }
 
-@media (max-width: @screen-phone-max) {
+@media (max-width: 375px) {
   .mast-header {
     height:auto;
   }
