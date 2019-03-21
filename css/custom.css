@@ -185,7 +185,7 @@ a:hover {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+@media (min-width: 375px) {
 
   .mast-header {
     margin-top:10px;
