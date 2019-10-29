@@ -51,7 +51,7 @@ h1,h2,h3,h4,h5,p,a,li {
 .gd-main-section {
   background-color: #A51C30;
   color: #fff;
-  height: 391px;
+  height: 361px;
   position: relative;
 }
 
@@ -200,7 +200,7 @@ a:hover {
   }
   
   .gd-main-section {
-      height: 391px;
+      height: 361px;
   }
 
   /* Navbar positioning foo */
@@ -263,7 +263,7 @@ a:hover {
   }
   
   .gd-main-section {
-  height: 308px;
+  height: 295px;
 }
 
   .header-bar {
