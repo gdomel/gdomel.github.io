@@ -51,14 +51,14 @@ h1,h2,h3,h4,h5,p,a,li {
 .gd-main-section {
   background-color: #A51C30;
   color: #fff;
-  margin-top: 60px;
-  margin-bottom:60px;
   position: relative;
 }
 
 .gd-main-section-copy {
   font-weight: 100;
   color: #fff;
+  margin-top: 60px;
+  margin-bottom:60px;
   position: relative;
 }
 
