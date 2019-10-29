@@ -51,18 +51,18 @@ h1,h2,h3,h4,h5,p,a,li {
 .gd-main-section {
   background-color: #A51C30;
   color: #fff;
-  height: 361px;
+  height: 285px;
   position: relative;
 }
 
-.gd-main-section-copy{
+.gd-main-section-copy {
   font-weight: 100;
   margin-top: 53px;
   color: #fff;
   position: relative;
 }
 
-.gd-main-section-copy h2{
+.gd-main-section-copy h2 {
   font-weight: 100;
   font-size: 25px;
 }
@@ -200,7 +200,7 @@ a:hover {
   }
   
   .gd-main-section {
-      height: 361px;
+      height: 285px;
   }
 
   /* Navbar positioning foo */
